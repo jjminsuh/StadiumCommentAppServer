@@ -1,0 +1,19 @@
+{
+  "name": "stadium_comment_app_server",
+  "version": "1.0.0",
+  "description": "stadium comment app server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjminsuh/StadiumCommentAppServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjminsuh/StadiumCommentAppServer/issues"
+  },
+  "homepage": "https://github.com/jjminsuh/StadiumCommentAppServer#readme"
+}
