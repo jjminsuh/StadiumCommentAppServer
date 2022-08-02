@@ -1,7 +1,12 @@
-var express = require('express')
 
-var app = express()
+const express = require('express')
+const app = express()
+const port = 3000
 
-app.listen(3000, function() {
-  console.log("start express server on port 3000")
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+app.listen(port, () => {
+  console.log(`start express server on port ${port}`)
 })
